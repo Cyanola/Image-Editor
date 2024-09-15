@@ -176,13 +176,13 @@ buttonContainer.style.width = `${(rect.width / windowWidth) * 100}%`;
                             let buttonsHTML = `
                             <Label style="color:black" id="myLabel">${fileName}</Label>
                                 <button class="btn" id="rebut" style="  background-color:transparent; width:25px;height:25px;" onclick="buttonClicked(1)">
-                                <img src="Images/re.png" width=25px height=25px alt="Заменить изображение">
+                                <img src="images/re.png" width=25px height=25px alt="Заменить изображение">
                                 </button>
                                 <button class="btn" style=" background-color:transparent;width:25px;height:25px;" id="editbutton" onclick="buttonClicked(2)">
-                                  <img src="Images/edit.png" width=25px height=25px alt="Редактировать изображение">
+                                  <img src="images/edit.png" width=25px height=25px alt="Редактировать изображение">
                                   </button>
                                 <button class="btn" style=" background-color:transparent; width:25px;height:25px;" id="deletebutton" onclick="buttonClicked(3)">
-                              <img src="Images/del.png" width=25px height=25px alt="Удалить изображение">
+                              <img src="images/del.png" width=25px height=25px alt="Удалить изображение">
                                   </button>
                             `;
                 
