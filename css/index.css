@@ -10,8 +10,36 @@ body {
     left: 0;
     width: 200%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color:white;
     z-index: 999;
+}
+
+
+
+.button-container {
+   /* Устанавливаем флекс-контейнер для кнопок */
+    /* justify-content: center; Располагаем кнопки от левого края */
+    /* Отступ сверху для кнопок */
+
+margin:-10px 0 10px 0;
+    display: block; /* Сбрасываем flex-свойства */
+    justify-content: center; /* Устанавливаем элементы без центрирования */
+    align-items:center; 
+   
+}
+
+.btn {
+    margin-right: 2px; /* Отступ между кнопками */
+    padding: 0 20px; /* Паддинг кнопок */
+ /* Цвет фона кнопок */
+    color: white; /* Цвет текста кнопок */
+    border: none; /* Убираем рамку */
+    border-radius: 5px; /* Скругляем углы кнопок */
+    cursor: pointer; /* Указываем, что это элемент взаимодействия */
+}
+
+.btn:hover {
+    background-color: #cbcbcb; /* Темный цвет при наведении */
 }
 .popup {
     position: fixed;
@@ -21,10 +49,10 @@ body {
     height: 70%;
     transform: translate(-50%, -50%);
     background-color: #fff;
-    border: 1px solid #888;
+  border: 2px solid black;
     border-radius: 10px;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
     z-index: 1000;
 }
 /* Styling the upload box */
